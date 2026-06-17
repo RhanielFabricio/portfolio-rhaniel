@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Rhaniel Fabricio | Java Backend Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<canvas id="particles-canvas"></canvas>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="#hero">RF<span>.</span>dev</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-btn" id="theme-btn" aria-label="Alternar tema">🌙</button>
+      <button class="menu-btn" id="menu-btn" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Olá, mundo</div>
+      <h1 class="hero-name">Rhaniel<br/><span class="gold">Fabricio</span></h1>
+      <div class="typewriter-wrap">
+        <span id="typewriter"></span><span class="cursor"></span>
+      </div>
+      <p class="hero-desc">
+        Desenvolvedor Java Backend apaixonado por construir APIs robustas e escaláveis.
+        Formado em Sistemas de Informação pela UNIP, com experiência em Spring Boot, JPA e REST APIs.
+        Baseado em São Paulo — SP.
+      </p>
+      <div class="hero-btns">
+        <a href="#projetos" class="btn btn-primary">Ver projetos ↓</a>
+        <a href="#contato" class="btn btn-outline">Entre em contato</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-ring">
+        <img class="avatar-img" id="avatar-img" src="" alt="Rhaniel Fabricio"/>
+        <div class="avatar-initials" id="avatar-initials">RF</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="sobre">
+  <div class="container">
+    <div class="section-label">Sobre mim</div>
+    <h2 class="section-title">Quem sou <span>eu</span></h2>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>Sou desenvolvedor Java Backend com sólida base em desenvolvimento de APIs RESTful utilizando <strong style="color:var(--green)">Spring Boot 3</strong>, JPA/Hibernate e MySQL. Minha jornada na tecnologia combina formação acadêmica robusta com experiência prática no desenvolvimento de sistemas reais.</p>
+        <p>Atualmente atuo em suporte de TI no programa <strong style="color:var(--gold)">Descomplica SP</strong> da Prefeitura de São Paulo enquanto construo meu portfólio como desenvolvedor backend, com projetos que vão desde APIs de lanchonete até sistemas de gestão para pequenas empresas.</p>
+        <p>Completo, curioso e orientado a resultados — busco minha primeira oportunidade formal como desenvolvedor Java para transformar código em valor real.</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-num">Java</div>
+          <div class="stat-label">Stack principal</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num" style="font-size:1.6rem">Spring<br/>Boot 3</div>
+          <div class="stat-label">Framework</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num"><span class="gold">5+</span></div>
+          <div class="stat-label">Anos em TI</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num"><span class="gold">SP</span></div>
+          <div class="stat-label">São Paulo — Brasil</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="skills">
+  <div class="container">
+    <div class="section-label">Habilidades</div>
+    <h2 class="section-title">Tech <span>Stack</span></h2>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <div class="skill-group-title">Backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Java 17</span>
+          <span class="skill-tag">Spring Boot 3</span>
+          <span class="skill-tag">Spring Data JPA</span>
+          <span class="skill-tag">Spring MVC</span>
+          <span class="skill-tag">Hibernate</span>
+          <span class="skill-tag">REST API</span>
+          <span class="skill-tag">Maven</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Banco de Dados</div>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">JPA / ORM</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Ferramentas & DevOps</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">Swagger / OpenAPI</span>
+          <span class="skill-tag">JWT</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Metodologias & Soft Skills</div>
+        <div class="skill-tags">
+          <span class="skill-tag gold-tag">Scrum</span>
+          <span class="skill-tag gold-tag">POO / SOLID</span>
+          <span class="skill-tag gold-tag">Git Flow</span>
+          <span class="skill-tag gold-tag">Inglês técnico</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">TI & Suporte</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Service Desk N1</span>
+          <span class="skill-tag">ITSM</span>
+          <span class="skill-tag">IAM</span>
+          <span class="skill-tag">Gestão de Incidentes</span>
+          <span class="skill-tag">LGPD</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-title">Conhecimentos adicionais</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Angular (básico)</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="projetos">
+  <div class="container">
+    <div class="section-label">Portfólio</div>
+    <h2 class="section-title">Meus <span>Projetos</span></h2>
+    <div class="projects-grid reveal">
+      <div class="project-card featured">
+        <div class="project-badge">✦ Projeto principal</div>
+        <div class="project-name">Lanchonete & Espetinho API</div>
+        <div class="project-desc">API RESTful completa para gerenciamento de lanchonete com CRUD completo de Produtos e Bebidas. Arquitetura MVC com Spring Boot 3, JPA/Hibernate e MySQL. Testada via Postman com todos os endpoints documentados.</div>
+        <div class="project-tech">
+          <span class="tech-pill">Java 17</span>
+          <span class="tech-pill">Spring Boot 3</span>
+          <span class="tech-pill">Spring Data JPA</span>
+          <span class="tech-pill">MySQL</span>
+          <span class="tech-pill">Maven</span>
+          <span class="tech-pill">REST</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://github.com/RhanielFabricio" target="_blank">GitHub →</a>
+          <span class="project-link disabled">Em desenvolvimento</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-badge">Em breve</div>
+        <div class="project-name">Agenda da Barbearia</div>
+        <div class="project-desc">Sistema de agendamento para barbearias com gerenciamento de clientes, horários e serviços. API REST com autenticação JWT e controle de acesso por perfil de usuário.</div>
+        <div class="project-tech">
+          <span class="tech-pill">Java</span>
+          <span class="tech-pill">Spring Boot</span>
+          <span class="tech-pill">JWT</span>
+          <span class="tech-pill">MySQL</span>
+          <span class="tech-pill">Swagger</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link disabled">Em planejamento</span>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-badge">Em breve</div>
+        <div class="project-name">Sistema de Marcenaria</div>
+        <div class="project-desc">Solução de gestão para marcenaria familiar com controle de pedidos, orçamentos, estoque de materiais e clientes. Projeto real baseado em necessidade de negócio existente.</div>
+        <div class="project-tech">
+          <span class="tech-pill">Java</span>
+          <span class="tech-pill">Spring Boot</span>
+          <span class="tech-pill">JPA</span>
+          <span class="tech-pill">MySQL</span>
+          <span class="tech-pill">REST</span>
+        </div>
+        <div class="project-links">
+          <span class="project-link disabled">Em planejamento</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="formacao">
+  <div class="container">
+    <div class="section-label">Carreira & Educação</div>
+    <h2 class="section-title">Formação & <span>Experiência</span></h2>
+    <div class="career-grid reveal">
+      <div>
+        <h3 class="career-subtitle">// Formação Acadêmica</h3>
+        <div class="education-list">
+          <div class="edu-card">
+            <div class="edu-icon">🎓</div>
+            <div>
+              <div class="edu-title">Bacharelado em Sistemas de Informação</div>
+              <div class="edu-inst">UNIP — Universidade Paulista</div>
+              <div class="edu-period">2021 — Dez/2025</div>
+              <div class="edu-desc">Formação completa em desenvolvimento de software, banco de dados, redes e gestão de TI.</div>
+            </div>
+          </div>
+          
+        <h3 class="career-subtitle" style="margin-top:2rem">// Certificações</h3>
+        <div class="certs-list">
+          <div class="cert-card">
+            <div class="cert-icon">🏅</div>
+            <div>
+              <div class="cert-name">Scrum Master Professional Certificate</div>
+              <div class="cert-issuer">CertiProf</div>
+            </div>
+          </div>
+          
+      <div>
+        <h3 class="career-subtitle">// Experiência Profissional</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2024 — Atendente Digital</div>
+            <div class="timeline-role">Suporte ao usuário — Serviços</div>
+            <div class="timeline-company">Quality Service · Descomplica SP · Prefeitura de SP</div>
+            <div class="timeline-desc">Suporte a usuários no programa municipal Descomplica SP.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2022</div>
+            <div class="timeline-role">Suporte de TI — Service Desk</div>
+            <div class="timeline-company">SulWork · Descomplica SP · Prefeitura de SP</div>
+            <div class="timeline-desc">Atendimento técnico N1/N2, gerenciamento de chamados ITSM, suporte a usuários, controle de acesso IAM e atendimento omnichannel no programa municipal Descomplica SP.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jun/2017 — Jun/2019</div>
+            <div class="timeline-role">Estagiário Service Desk N1</div>
+            <div class="timeline-company">Prodam · Prefeitura de São Paulo</div>
+            <div class="timeline-desc">Suporte técnico N1 na empresa de tecnologia da Prefeitura de SP. Gestão de incidentes, provisionamento de contas IAM, suporte a sistemas corporativos e atendimento omnichannel.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="contato">
+  <div class="container">
+    <div class="section-label">Contato</div>
+    <h2 class="section-title">Vamos <span>conversar</span></h2>
+    <div class="contact-grid reveal">
+      <div>
+        <p class="contact-text">Estou em busca da minha primeira oportunidade formal como desenvolvedor Java Backend. Se você tem uma vaga, quer trocar ideia sobre tecnologia ou precisa de um desenvolvedor dedicado — me chama!</p>
+        <div class="contact-links">
+          <a class="contact-link" href="https://github.com/RhanielFabricio" target="_blank">
+            <span class="contact-link-icon">🐙</span>
+            <div>
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-value">github.com/RhanielFabricio</div>
+            </div>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/rhaniel-fabricio-4b065677/" target="_blank">
+            <span class="contact-link-icon">💼</span>
+            <div>
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-value">https://www.linkedin.com/in/rhaniel-fabricio-4b065677/</div>
+            </div>
+          </a>
+          <a class="contact-link" href="rhaniel6@hotmail.com" id="email-link">
+            <span class="contact-link-icon">✉️</span>
+            <div>
+              <div class="contact-link-label">E-mail</div>
+              <div class="contact-link-value" id="email-display">rhaniel6@hotmail.com</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="form-label">Nome</label>
+            <input class="form-input" type="text" placeholder="Seu nome"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">E-mail</label>
+            <input class="form-input" type="email" placeholder="seu@email.com"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Mensagem</label>
+            <textarea class="form-textarea" placeholder="Olá Rhaniel, tenho uma oportunidade para você..."></textarea>
+          </div>
+          <button class="btn btn-primary" id="send-btn">Enviar mensagem →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>Desenvolvido com <span>♥</span> por <b>Rhaniel Fabricio</b> · São Paulo, SP · 2026</p>
+    <p class="footer-sub">Java Backend Developer · Spring Boot · JPA · API'S REST</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
