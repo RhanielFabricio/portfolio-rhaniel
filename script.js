@@ -86,9 +86,9 @@ animateParticles();
 /* ---------- TYPEWRITER ---------- */
 const phrases = [
   'Java Backend Developer',
-  'Spring Boot Enthusiast',
-  'REST API Builder',
-  'Apaixonado por código limpo',
+  'Spring Boot',
+  'API REST',
+  'Transformando lógica em solução',
 ];
 
 let phraseIndex = 0;
